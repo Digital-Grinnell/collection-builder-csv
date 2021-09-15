@@ -37,8 +37,9 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 ##########
 # COLLECTION SETTINGS
 #
-# choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo-metadata
+# choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection.  MM: Do NOT include the .csv extension below!
+### metadata: demo-metadata
+metadata: Rev-5
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -46,8 +47,8 @@ metadata: demo-metadata
 #     template: 'item'
 #     name: 'objectid'
 #     dir: 'items'
-#     extension: 'html' 
-#     filter: 'objectid'  
+#     extension: 'html'
+#     filter: 'objectid'
 
 ##########
 # GOOGLE SERVICES [optional!]
@@ -61,10 +62,10 @@ metadata: demo-metadata
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+# noindex: true
 
 ##########
-# BUILD SETTINGS 
+# BUILD SETTINGS
 #
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
