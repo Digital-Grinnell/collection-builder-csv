@@ -16,7 +16,7 @@
 # site domain, full URL to the production location of your collection
 url: https://black-sea-0a2020810-1.centralus.azurestaticapps.net
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /
+baseurl: /_site
 # location of code, the full url to your github repository
 source-code: https://github.com/Digital-Grinnell/collection-builder-csv
 
